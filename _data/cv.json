@@ -4,7 +4,7 @@
     "email": "me.kinjalk@outlook.com",
     "phone": "",
     "website": "https://masterkinjalk.github.io",
-    "summary": "I work in Dr. Andrew Leakey's lab at the Carl R. Woese Institute for Genomic Biology (UIUC) on computer vision for plant biology: quantifying plant traits and building software to help plant biologists navigate a data-rich world. ICLR 2026 Oral. M.C.S. (UIUC, 3.93/4.00). B.Tech CSE AI/ML (SRM IST).",
+    "summary": "I work in Dr. Andrew Leakey's lab at the Carl R. Woese Institute for Genomic Biology (UIUC) on computer vision for plant biology: quantifying plant traits and building software to help plant biologists navigate a data-rich world. M.C.S. (UIUC, 3.93/4.00). B.Tech CSE AI/ML (SRM IST).",
     "location": {
       "address": "",
       "postalCode": "",
@@ -93,13 +93,6 @@
   ],
   "publications": [
     {
-      "name": "Can you spot the AI peer reviewer? (ICLR 2026 Oral)",
-      "publisher": "International Conference on Learning Representations (ICLR) 2026",
-      "releaseDate": "2026",
-      "website": "",
-      "summary": "Work on AI in peer review, selected as ICLR 2026 Oral (~top 1%). With Shubham Ugare and Sasa Misailovic."
-    },
-    {
       "name": "RootQuant: Automated Root Trait Quantification from Minirhizotron Images Using Deep Learning",
       "publisher": "NAPPN 2026 Program & Abstract Book",
       "releaseDate": "2026",
@@ -122,13 +115,6 @@
     }
   ],
   "presentations": [
-    {
-      "name": "Can you spot the AI peer reviewer? (ICLR 2026 Oral)",
-      "event": "ICLR 2026",
-      "date": "2026",
-      "location": "International Conference on Learning Representations",
-      "description": "Oral presentation (~top 1% selection). With Shubham Ugare and Sasa Misailovic."
-    },
     {
       "name": "RootQuant: Automated Root Trait Quantification from Minirhizotron Images Using Deep Learning",
       "event": "NAPPN 2026",

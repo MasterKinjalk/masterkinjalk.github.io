@@ -15,7 +15,6 @@ I use computer vision to address problems in plant biology and to make **quantif
 
 **Recent highlights**
 
-- **ICLR 2026 Oral** (~top 1%): Our work on AI peer review (with Shubham Ugare and Sasa Misailovic) has been accepted and selected for an oral presentation at ICLR 2026.
 - **NAPPN 2026:** Presented RootQuant (automated root trait quantification from minirhizotron images) as a fast-forward talk and poster—my second year at NAPPN as a researcher.
 - **CVPPA 2025 (ICCV workshop):** Two extended abstracts—RootSAM (adapting SAM2.1 for root segmentation) and SPROUTS (integrated desktop app for high-throughput root phenotyping)—with lightning talks at ICCV 2025.
 
