@@ -12,17 +12,16 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="{{ include.type | default: "list" }}__item" data-aos="fade-up">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
-        <img src=
-          {% if teaser contains "://" %}
-            "{{ teaser }}"
-          {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-          alt="">
+        {% if teaser contains "://" %}
+          {% assign teaser_src = teaser %}
+        {% else %}
+          {% assign teaser_src = teaser | prepend: "/images/" | prepend: base_path %}
+        {% endif %}
+        <a href="{{ teaser_src }}" class="glightbox" data-glightbox="teasers" data-title="{{ title | escape }}"><img src="{{ teaser_src }}" alt=""></a>
       </div>
     {% endif %}
 
@@ -77,7 +76,10 @@
     {% elsif post.slidesurl %}
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.bibtexurl %}
-      <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.bibtexurl }}">Download Bibtex</a>{% if post.bibtex %} {% include copy-bibtex.html bibtex=post.bibtex id=post.id %}{% endif %}</p>
+    {% endif %}
+    {% if post.bibtex and post.paperurl == nil and post.slidesurl == nil and post.bibtexurl == nil %}
+      <p>{% include copy-bibtex.html bibtex=post.bibtex id=post.id %}</p>
     {% endif %}
 
   </article>

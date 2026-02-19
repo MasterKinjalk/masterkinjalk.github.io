@@ -399,3 +399,50 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* ==========================================================================
+   Image comparison (before/after slider)
+   ========================================================================== */
+
+.image-comparison-wrapper {
+  margin: 2em 0;
+
+  img-comparison-slider,
+  .image-comparison-slider {
+    display: block;
+    border-radius: $border-radius;
+    overflow: hidden;
+    max-width: 100%;
+  }
+}
+
+.image-comparison-captions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5em;
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+}
+
+.image-comparison-caption--left { margin-right: auto; }
+.image-comparison-caption--right { margin-left: auto; }
+
+/* Copy BibTeX (Alpine.js) */
+.copy-bibtex-source {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.copy-bibtex-wrapper {
+  display: inline-block;
+  margin-left: 0.5rem;
+}
+.copy-bibtex-wrapper .btn--small {
+  padding: 0.25em 0.6em;
+  font-size: $type-size-7;
+}

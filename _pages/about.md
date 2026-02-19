@@ -5,6 +5,12 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+header:
+  overlay_color: "#1a5f7a"
+  overlay_filter: 0.35
+  cta_label: "View publications"
+  cta_url: "/publications/"
+excerpt: "Computer vision for plant biology and phenotyping."
 ---
 
 I am **Kinjalk Parth**. I work in **Dr. Andrew Leakey's lab** at the **Carl R. Woese Institute for Genomic Biology**, University of Illinois Urbana-Champaign, where I focus on **computer vision for plant biology**.

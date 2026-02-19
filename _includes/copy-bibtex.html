@@ -1,0 +1,15 @@
+{% comment %}
+  Copy BibTeX button. Use when page.bibtex or post.bibtex contains the raw BibTeX string.
+  Usage: {% include copy-bibtex.html bibtex=page.bibtex %} or bibtex=post.bibtex
+{% endcomment %}
+{% if include.bibtex %}
+{% if include.id %}{% assign bid = "bibtex-" | append: include.id %}{% else %}{% assign bid = "bibtex-copy" %}{% endif %}
+<div class="copy-bibtex-wrapper" x-data="{ copied: false }">
+  <textarea id="{{ bid }}" class="copy-bibtex-source" aria-hidden="true" readonly>{{ include.bibtex }}</textarea>
+  <button type="button" class="btn btn--small copy-bibtex-btn"
+    @click="navigator.clipboard.writeText(document.getElementById('{{ bid }}').value).then(() => { copied = true; setTimeout(() => { copied = false }, 2000) })"
+    :aria-label="copied ? 'Copied' : 'Copy BibTeX'">
+    <span x-text="copied ? 'Copied!' : 'Copy BibTeX'"></span>
+  </button>
+</div>
+{% endif %}

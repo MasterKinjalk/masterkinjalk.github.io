@@ -1,0 +1,28 @@
+{% comment %}
+  Before/after image comparison slider for CV results (e.g. input vs segmentation).
+  Parameters: image_left, image_right, label_left (optional), label_right (optional).
+  Paths can be relative to /images/ or full URLs.
+{% endcomment %}
+{% include base_path %}
+{% assign left_src = include.image_left %}
+{% assign right_src = include.image_right %}
+{% if left_src and left_src != "" and right_src and right_src != "" %}
+  {% unless left_src contains "://" %}
+    {% assign left_src = left_src | prepend: "/images/" | prepend: base_path %}
+  {% endunless %}
+  {% unless right_src contains "://" %}
+    {% assign right_src = right_src | prepend: "/images/" | prepend: base_path %}
+  {% endunless %}
+<figure class="image-comparison-wrapper" data-aos="fade-up">
+  <img-comparison-slider value="50" class="image-comparison-slider">
+    <img slot="first" src="{{ left_src }}" alt="{{ include.label_left | default: 'Before' }}">
+    <img slot="second" src="{{ right_src }}" alt="{{ include.label_right | default: 'After' }}">
+  </img-comparison-slider>
+  {% if include.label_left or include.label_right %}
+  <figcaption class="image-comparison-captions">
+    <span class="image-comparison-caption image-comparison-caption--left">{{ include.label_left | default: "Before" }}</span>
+    <span class="image-comparison-caption image-comparison-caption--right">{{ include.label_right | default: "After" }}</span>
+  </figcaption>
+  {% endif %}
+</figure>
+{% endif %}

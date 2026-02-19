@@ -1,0 +1,17 @@
+# Research highlights for the home page (optional images under /images/)
+- title: "RootQuant"
+  description: "Automated root trait quantification from minirhizotron images."
+  url: "/publications/"
+  image: # optional, e.g. "rootquant-teaser.jpg"
+- title: "RootSAM"
+  description: "Adapting SAM2.1 for root segmentation (CVPPA @ ICCV 2025)."
+  url: "/publications/"
+  image:
+- title: "SPROUTS"
+  description: "Integrated desktop app for high-throughput root phenotyping."
+  url: "/publications/"
+  image:
+- title: "Publications"
+  description: "Journal articles and conference papers."
+  url: "/publications/"
+  image:

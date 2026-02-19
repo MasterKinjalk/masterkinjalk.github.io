@@ -1,3 +1,46 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script defer src="https://unpkg.com/alpinejs@3.14.3/dist/cdn.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof AOS !== 'undefined') {
+      AOS.init({ duration: 500, offset: 60, once: true });
+    }
+    if (typeof Splide !== 'undefined') {
+      var carousel = document.getElementById('highlights-carousel');
+      if (carousel) {
+        new Splide('#highlights-carousel', {
+          type: 'loop',
+          perPage: 4,
+          perMove: 1,
+          gap: '1.25rem',
+          padding: '0.5rem',
+          breakpoints: {
+            1280: { perPage: 3 },
+            768: { perPage: 2 },
+            480: { perPage: 1 }
+          }
+        }).mount();
+      }
+    }
+    if (typeof GLightbox !== 'undefined') {
+      var contentImages = document.querySelectorAll('.page__content img:not(.glightbox img)');
+      contentImages.forEach(function(img) {
+        if (img.closest('a')) return;
+        var a = document.createElement('a');
+        a.href = img.currentSrc || img.src;
+        a.className = 'glightbox';
+        a.setAttribute('data-glightbox', 'content-images');
+        a.setAttribute('data-title', img.alt || '');
+        var clone = img.cloneNode(true);
+        a.appendChild(clone);
+        img.parentNode.replaceChild(a, img);
+      });
+      GLightbox({ selector: '.glightbox', touchNavigation: true });
+    }
+  });
+</script>
 {% include analytics.html %}

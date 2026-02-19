@@ -45,6 +45,7 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.url == "/" or page.permalink == "/" %}{% include highlights.html %}{% endif %}
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
@@ -70,7 +71,10 @@ layout: default
         {% elsif page.slidesurl %}
           <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
         {% elsif page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a>{% if page.bibtex %} {% include copy-bibtex.html bibtex=page.bibtex id=page.id %}{% endif %}</p>
+        {% endif %}
+        {% if page.bibtex and page.bibtexurl == nil %}
+          <p style="font-size: smaller">{% include copy-bibtex.html bibtex=page.bibtex id=page.id %}</p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

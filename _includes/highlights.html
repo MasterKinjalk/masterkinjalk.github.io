@@ -1,0 +1,27 @@
+{% include base_path %}
+{% if site.data.highlights and site.data.highlights.size > 0 %}
+<section class="highlights-section" aria-label="Research highlights">
+  <h2 class="highlights-section__title" data-aos="fade-up">Research highlights</h2>
+  <div class="splide highlights-carousel" id="highlights-carousel">
+    <div class="splide__track">
+      <ul class="splide__list">
+        {% for item in site.data.highlights %}
+        <li class="splide__slide">
+          <a href="{{ item.url | prepend: base_path }}" class="highlight-card" data-aos="fade-up">
+            {% if item.image %}
+            <div class="highlight-card__teaser">
+              <img src="{{ item.image | prepend: '/images/' | prepend: base_path }}" alt="" loading="lazy">
+            </div>
+            {% endif %}
+            <div class="highlight-card__body">
+              <h3 class="highlight-card__title">{{ item.title }}</h3>
+              <p class="highlight-card__desc">{{ item.description }}</p>
+            </div>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+{% endif %}

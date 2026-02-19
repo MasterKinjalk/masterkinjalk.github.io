@@ -1,0 +1,79 @@
+/* ==========================================================================
+   HIGHLIGHTS SECTION (home page)
+   ========================================================================== */
+
+.highlights-section {
+  margin: 2.5em 0;
+
+  &__title {
+    margin-bottom: 1rem;
+    font-size: $type-size-4;
+  }
+
+  &__grid {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: 1fr;
+
+    @include breakpoint($small) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include breakpoint($large) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+
+/* Splide overrides for highlights carousel */
+.highlights-carousel .splide__list {
+  gap: 0;
+}
+.highlights-carousel .splide__slide {
+  padding: 0 0.5rem;
+}
+
+.highlight-card {
+  display: block;
+  background: var(--global-card-bg, var(--global-bg-color));
+  border-radius: var(--global-card-radius, $border-radius);
+  box-shadow: var(--global-card-shadow, $box-shadow);
+  border: 1px solid var(--global-border-color);
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow $global-transition, transform $global-transition;
+
+  &:hover {
+    box-shadow: var(--global-card-shadow-hover, 0 0 14px rgba(0, 0, 0, 0.12));
+    color: inherit;
+  }
+
+  &__teaser {
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: var(--global-code-background-color);
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__body {
+    padding: 1rem 1.25rem;
+  }
+
+  &__title {
+    margin: 0 0 0.35em;
+    font-size: $type-size-5;
+  }
+
+  &__desc {
+    margin: 0;
+    font-size: $type-size-6;
+    color: var(--global-text-color-light);
+    line-height: 1.45;
+  }
+}

@@ -1,0 +1,50 @@
+/* ==========================================================================
+    CV THEME - LIGHT (modern, computer vision researcher)
+    ========================================================================== */
+$primary-color              : #1a5f7a;
+$gray                       : #5a6570;
+$dark-gray                  : mix(#000, $gray, 45%);
+$darker-gray                : mix(#000, $gray, 65%);
+$light-gray                 : mix(#fff, $gray, 55%);
+$lighter-gray               : mix(#fff, $gray, 92%);
+
+$danger-color               : #c94f4b;
+$info-color                 : #1a5f7a;
+$notice-color               : #5a6570;
+$success-color               : #2d9d64;
+$warning-color               : #d97706;
+
+$border-radius              : 8px;
+$border-radius-card         : 12px;
+$box-shadow                 : 0 1px 3px rgba(0, 0, 0, 0.08);
+$box-shadow-card            : 0 4px 14px rgba(0, 0, 0, 0.06);
+$box-shadow-card-hover      : 0 8px 24px rgba(0, 0, 0, 0.1);
+$global-transition          : all 0.25s ease;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+:root {
+  --global-base-color                 : #{$primary-color};
+  --global-bg-color                   : #fafbfc;
+  --global-footer-bg-color            : #eef1f3;
+  --global-border-color               : #{$lighter-gray};
+  --global-dark-border-color          : #b8c2cc;
+  --global-code-background-color      : #f4f5f6;
+  --global-code-text-color            : #{$darker-gray};
+  --global-fig-caption-color          : #{$gray};
+  --global-link-color                 : #1a7a9e;
+  --global-link-color-hover           : #0d4d66;
+  --global-link-color-visited         : #3d8fb3;
+  --global-masthead-link-color        : #{$dark-gray};
+  --global-masthead-link-color-hover  : #{$primary-color};
+  --global-text-color                 : #{$dark-gray};
+  --global-text-color-light           : #{$light-gray};
+  --global-thead-color                : #{$lighter-gray};
+  --global-card-bg                    : #fff;
+  --global-card-shadow                : #{$box-shadow-card};
+  --global-card-shadow-hover          : #{$box-shadow-card-hover};
+  --global-card-radius                : #{$border-radius-card};
+}
