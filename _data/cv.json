@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Kinjalk Parth",
-    "email": "",
+    "email": "me.kinjalk@outlook.com",
     "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "I work at Dr. Andrew Leakey's lab (UIUC) on computer vision for plant biology: quantifying plant traits and building software to help plant biologists navigate a data-rich world.",
+    "website": "https://masterkinjalk.github.io",
+    "summary": "I work in Dr. Andrew Leakey's lab at the Carl R. Woese Institute for Genomic Biology (UIUC) on computer vision for plant biology: quantifying plant traits and building software to help plant biologists navigate a data-rich world. ICLR 2026 Oral. M.C.S. (UIUC, 3.93/4.00). B.Tech CSE AI/ML (SRM IST).",
     "location": {
       "address": "",
       "postalCode": "",
@@ -13,15 +13,13 @@
       "region": "IL"
     },
     "profiles": [
-      {"network": "Google Scholar", "username": "", "url": ""},
-      {"network": "ORCID", "username": "", "url": ""},
-      {"network": "GitHub", "username": "", "url": ""},
-      {"network": "LinkedIn", "username": "", "url": ""}
+      {"network": "LinkedIn", "username": "kinjalk-parth", "url": "https://www.linkedin.com/in/kinjalk-parth/"},
+      {"network": "GitHub", "username": "MasterKinjalk", "url": "https://github.com/MasterKinjalk"}
     ]
   },
   "work": [
     {
-      "company": "Leakey Lab, University of Illinois Urbana-Champaign",
+      "company": "Leakey Lab, Carl R. Woese Institute for Genomic Biology, University of Illinois Urbana-Champaign",
       "position": "Research / Lab member",
       "website": "",
       "startDate": "Present",
@@ -29,17 +27,27 @@
       "summary": "Using computer vision to solve problems in plant biology: trait quantification, phenotyping, and software solutions to help plant biologists navigate increased data.",
       "highlights": [
         "Computer vision for plant phenotyping and trait quantification",
-        "Software tools for data-driven plant biology"
+        "Software tools for data-driven plant biology",
+        "Deep learning for root and minirhizotron image analysis"
       ]
     }
   ],
   "education": [
     {
       "institution": "University of Illinois Urbana-Champaign (UIUC)",
-      "area": "M.S.",
+      "area": "M.C.S. (Master of Computer Science)",
       "studyType": "Master's",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2023",
+      "endDate": "2024",
+      "gpa": "3.93/4.00",
+      "courses": []
+    },
+    {
+      "institution": "SRM Institute of Science and Technology",
+      "area": "B.Tech. CSE (AI & ML)",
+      "studyType": "Bachelor's",
+      "startDate": "2019",
+      "endDate": "2023",
       "gpa": null,
       "courses": []
     }
@@ -48,17 +56,49 @@
     {
       "name": "Research focus",
       "keywords": ["Computer vision", "Plant phenotyping", "Plant biology", "Trait quantification", "Machine learning", "Software for biologists"]
-    }
-  ],
-  "languages": [],
-  "interests": [
+    },
     {
-      "name": "Plant biology & computer vision",
-      "keywords": ["Phenotyping", "Trait quantification", "Data-driven plant science", "Software for biologists"]
+      "name": "Technical & development",
+      "keywords": ["Python", "R", "MySQL", "C", "C++", "Dart", "PyTorch", "TensorFlow", "Scikit-Learn", "Pandas", "SaaS development", "Business analytics", "Android development", "Mobile application development", "Google Cloud", "Azure", "AWS"]
+    },
+    {
+      "name": "Certifications",
+      "keywords": [
+        "Advanced Probability Theory (NPTEL)",
+        "Computer Vision (NPTEL)",
+        "Natural Language Processing (NPTEL)",
+        "Statistical Inference (NPTEL)",
+        "Image Classification with CNNs using Keras (Coursera)",
+        "Applying Data Analytics in Finance (UIUC)",
+        "Python, SQL, Problem Solving (HackerRank)"
+      ]
     }
   ],
-  "references": [],
+  "languages": [
+    {"language": "English", "fluency": "Native or bilingual proficiency"},
+    {"language": "Hindi", "fluency": "Native or bilingual proficiency"}
+  ],
+  "interests": [
+    {"name": "Plant biology & computer vision", "keywords": ["Phenotyping", "Trait quantification", "Data-driven plant science", "Software for biologists"]}
+  ],
+  "references": [
+    {
+      "name": "Satyam Tiwari",
+      "reference": "I wholeheartedly recommend Kinjalk for their outstanding expertise in data science and AI. Their deep understanding of advanced analytics, machine learning, and programming languages like Python and R, combined with their passion for continuous learning, make them an exceptional asset."
+    },
+    {
+      "name": "Ishan Gautam",
+      "reference": "Kinjal worked for me on an AI Project. I was profoundly impressed with his deep knowledge of AI and ML despite being straight out of college. He communicated most effectively and had a knack for problem-solving. His grit and smile are unwavering."
+    }
+  ],
   "publications": [
+    {
+      "name": "Can you spot the AI peer reviewer? (ICLR 2026 Oral)",
+      "publisher": "International Conference on Learning Representations (ICLR) 2026",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Work on AI in peer review, selected as ICLR 2026 Oral (~top 1%). With Shubham Ugare and Sasa Misailovic."
+    },
     {
       "name": "RootQuant: Automated Root Trait Quantification from Minirhizotron Images Using Deep Learning",
       "publisher": "NAPPN 2026 Program & Abstract Book",
@@ -83,6 +123,13 @@
   ],
   "presentations": [
     {
+      "name": "Can you spot the AI peer reviewer? (ICLR 2026 Oral)",
+      "event": "ICLR 2026",
+      "date": "2026",
+      "location": "International Conference on Learning Representations",
+      "description": "Oral presentation (~top 1% selection). With Shubham Ugare and Sasa Misailovic."
+    },
+    {
       "name": "RootQuant: Automated Root Trait Quantification from Minirhizotron Images Using Deep Learning",
       "event": "NAPPN 2026",
       "date": "2026",
@@ -105,5 +152,12 @@
     }
   ],
   "teaching": [],
-  "portfolio": []
+  "portfolio": [
+    {"name": "Sao-Paolo-Public-Transport-Route-Website-For-Tourists", "date": "", "category": "web", "description": "Deployed transportation app for tourists. JavaScript.", "url": "https://github.com/MasterKinjalk/Sao-Paolo-Public-Transport-Route-Website-For-Tourists"},
+    {"name": "Analysis-of-Sentiments-During-Covid", "date": "", "category": "data", "description": "Sentiment analysis during COVID. Python.", "url": "https://github.com/MasterKinjalk/Analysis-of-Sentiments-During-Covid"},
+    {"name": "Golbal-Impact-Word-Patters-In-Covid", "date": "", "category": "data", "description": "Global impact word patterns in COVID. Python.", "url": "https://github.com/MasterKinjalk/Golbal-Impact-Word-Patters-In-Covid"},
+    {"name": "Recognise-Objects-Using-Our-APP", "date": "", "category": "mobile", "description": "Object recognition mobile app. Dart.", "url": "https://github.com/MasterKinjalk/Recognise-Objects-Using-Our-APP"},
+    {"name": "Regex-Practice-App", "date": "", "category": "tool", "description": "Regex practice application. Python.", "url": "https://github.com/MasterKinjalk/Regex-Practice-App"},
+    {"name": "Setup-of-Hadoop-and-Spark-on-Docker-Containers", "date": "", "category": "infra", "description": "Hadoop and Spark on Docker containers. Shell.", "url": "https://github.com/MasterKinjalk/Setup-of-Hadoop-and-Spark-on-Docker-Continers"}
+  ]
 }
