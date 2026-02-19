@@ -1,18 +1,10 @@
-# Authors
+# Site author(s) - used for multi-author sites; primary author is in _config.yml
 
-Name Name:
-  name        : "Name Name"
-  uri         : "https://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Kinjalk Parth:
+  name        : "Kinjalk Parth"
+  uri         : ""
+  email       : ""  # Add your email
+  bio         : "Using computer vision for plant biology—phenotyping, trait quantification, and software for data-driven plant science."
+  avatar      : "profile.png"
+  twitter     : ""
+  google_plus : ""

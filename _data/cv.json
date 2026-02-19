@@ -1,152 +1,109 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
+    "name": "Kinjalk Parth",
+    "email": "",
     "phone": "",
     "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "summary": "I work at Dr. Andrew Leakey's lab (UIUC) on computer vision for plant biology: quantifying plant traits and building software to help plant biologists navigate a data-rich world.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Urbana-Champaign",
       "countryCode": "US",
-      "region": ""
+      "region": "IL"
     },
     "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
-      }
+      {"network": "Google Scholar", "username": "", "url": ""},
+      {"network": "ORCID", "username": "", "url": ""},
+      {"network": "GitHub", "username": "", "url": ""},
+      {"network": "LinkedIn", "username": "", "url": ""}
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Leakey Lab, University of Illinois Urbana-Champaign",
+      "position": "Research / Lab member",
+      "website": "",
+      "startDate": "Present",
+      "endDate": "",
+      "summary": "Using computer vision to solve problems in plant biology: trait quantification, phenotyping, and software solutions to help plant biologists navigate increased data.",
+      "highlights": [
+        "Computer vision for plant phenotyping and trait quantification",
+        "Software tools for data-driven plant biology"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
+      "institution": "University of Illinois Urbana-Champaign (UIUC)",
+      "area": "M.S.",
+      "studyType": "Master's",
       "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "endDate": "",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Research focus",
+      "keywords": ["Computer vision", "Plant phenotyping", "Plant biology", "Trait quantification", "Machine learning", "Software for biologists"]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    {
+      "name": "Plant biology & computer vision",
+      "keywords": ["Phenotyping", "Trait quantification", "Data-driven plant science", "Software for biologists"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "RootQuant: Automated Root Trait Quantification from Minirhizotron Images Using Deep Learning",
+      "publisher": "NAPPN 2026 Program & Abstract Book",
+      "releaseDate": "2026",
+      "website": "https://static1.squarespace.com/static/5fb2e0b25364a76eaf3ad318/t/698b6fd85b938a0fe8c337ba/1770745816704/NAPPN+2026+Program+Book+-+updated.pdf",
+      "summary": "Deep learning (Inception-ResNet-v2) for automated root length and area prediction from minirhizotron images; R² = 0.903 (length), 0.880 (area) on soybean and maize DRIFACE data. Fast-forward talk and poster at NAPPN 2026."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "RootSAM: Adapting SAM2.1 for Root Segmentation in Minirhizotron Imagery",
+      "publisher": "CVPPA 2025, ICCV 2025 Workshop (Extended Abstracts)",
+      "releaseDate": "2025",
+      "website": "https://cvppa2025.github.io/proceedings/",
+      "summary": "Adapting Segment Anything Model (SAM2.1) for root segmentation in minirhizotron imagery. With Sebastian Quintela, Andrew Leakey, Sam Walker, Nadia Shakoor. Lightning talk EA #19 at CVPPA 2025."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "SPROUTS: An Integrated Desktop Application for High-Throughput Root Phenotyping",
+      "publisher": "CVPPA 2025, ICCV 2025 Workshop (Extended Abstracts)",
+      "releaseDate": "2025",
+      "website": "https://cvppa2025.github.io/proceedings/",
+      "summary": "Integrated desktop application for high-throughput root phenotyping. With Sebastian Quintela and Andrew Leakey. Lightning talk EA #7 at CVPPA 2025."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "RootQuant: Automated Root Trait Quantification from Minirhizotron Images Using Deep Learning",
+      "event": "NAPPN 2026",
+      "date": "2026",
+      "location": "Michigan State University, East Lansing",
+      "description": "Fast-forward talk and poster (Feb 9–12, 2026)."
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "RootSAM: Adapting SAM2.1 for Root Segmentation in Minirhizotron Imagery",
+      "event": "CVPPA 2025, ICCV 2025 Workshop",
+      "date": "2025-10-20",
+      "location": "ICCV 2025",
+      "description": "Lightning talk (EA #19)."
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "SPROUTS: An Integrated Desktop Application for High-Throughput Root Phenotyping",
+      "event": "CVPPA 2025, ICCV 2025 Workshop",
+      "date": "2025-10-20",
+      "location": "ICCV 2025",
+      "description": "Lightning talk (EA #7)."
     }
   ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "teaching": [],
+  "portfolio": []
 }
