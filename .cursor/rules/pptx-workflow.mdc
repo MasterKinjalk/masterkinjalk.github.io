@@ -1,0 +1,10 @@
+---
+description: Use pptx2md to read PowerPoint files; assistant reads the generated Markdown and images
+alwaysApply: true
+---
+
+# PowerPoint workflow
+
+- The user has **pptx2md** installed (pip). Use it to "read" PowerPoint files.
+- Workflow: run `pptx2md <file.pptx> -o <name>.md -i img` (or equivalent), then the assistant reads the generated `.md` and the `img/` folder to work with slide content.
+- Images are preserved in the output; the assistant can read those image files when they are in the workspace.
