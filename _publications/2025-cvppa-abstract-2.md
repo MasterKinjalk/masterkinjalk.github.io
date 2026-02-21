@@ -6,7 +6,7 @@ permalink: /publication/2025-cvppa-rootsam
 excerpt: 'Two-stage fine-tuning of SAM2.1 for root segmentation in minirhizotron imagery: 37% mIoU gain, 91% cost reduction. CVPPA 2025 (ICCV Workshop).'
 date: 2025-10-01
 venue: 'CVPPA 2025, ICCV 2025 Workshop (Extended Abstracts)'
-paperurl: 'https://cvppa2025.github.io/proceedings/'
+paperurl: 'https://cvppa2025.github.io/assets/ExtendedAbstracts/19.pdf'
 citation: 'Kinjalk Parth, Sebastian Varela, Samuel Walker, Nadia Shakoor, Andrew D.B. Leakey. (2025). RootSAM: Adapting SAM2.1 for Root Segmentation in Minirhizotron Imagery. <i>CVPPA 2025 — ICCV 2025 Workshop (Extended Abstracts)</i>.'
 ---
 
@@ -16,4 +16,4 @@ Root systems are critical for plant adaptation and productivity; minirhizotron i
 
 With Sebastian Varela, Samuel Walker (UIUC), and Nadia Shakoor (Donald Danforth Plant Science Center). Presented as an extended abstract at the [Computer Vision for Plant Phenotyping and Agriculture (CVPPA) workshop](https://cvppa2025.github.io/proceedings/) at ICCV 2025 (October 20, 2025).
 
-**Links:** [CVPPA 2025 Proceedings](https://cvppa2025.github.io/proceedings/) (Extended Abstracts)
+**Links:** [CVPPA 2025 Proceedings](https://cvppa2025.github.io/assets/ExtendedAbstracts/19.pdf) (Extended Abstracts)

@@ -6,9 +6,10 @@ $root = $PSScriptRoot
 $images = Join-Path $root "images"
 if (-not (Test-Path $images)) { New-Item -ItemType Directory -Path $images -Force | Out-Null }
 
+# Teaser images: use project-relevant figures (see plan update_site_from_poster_mds)
 $pairs = @(
     @("OceanIT_Presentation_img\OceanIT_Presentation_7.png", "rootquant-teaser.png"),
-    @("RootSAM_Final_Poster_img\RootSAM_Final_Poster_3.png", "rootsam-teaser.png"),
+    @("RootSAM_Final_Poster_img\RootSAM_Final_Poster_4.png", "rootsam-teaser.png"),
     @("SPROUTS_Poster_img\SPROUTS_Poster_0.png", "sprouts-teaser.png"),
     @("OceanIT_Presentation_img\OceanIT_Presentation_9.png", "demo-rootquant-original.png"),
     @("OceanIT_Presentation_img\OceanIT_Presentation_10.png", "demo-rootquant-finetuned.png"),
