@@ -19,10 +19,11 @@ main:
 
   - title: "CV"
     url: /cv/
-    
+
+  - title: "Portfolio"
+    url: /portfolio/
+
   # Add when you have content:
   # - title: "Teaching"
   #   url: /teaching/
-  # - title: "Portfolio"
-  #   url: /portfolio/
   # JSON-driven CV: /cv-json/

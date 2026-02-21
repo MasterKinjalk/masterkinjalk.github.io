@@ -27,6 +27,7 @@ Skills
 * Computer vision and machine learning for plant phenotyping  
 * Trait quantification and image-based analysis  
 * Software and pipelines for data-driven plant biology  
+* Foundation model adaptation (e.g. SAM), regression and segmentation for plant imagery, desktop app development for phenotyping workflows  
 * Python, R, MySQL, C, C++, Dart — data science, ML, and development  
 * PyTorch, TensorFlow, Scikit-Learn, Pandas — ML and data stacks  
 * SaaS development, business analytics, Android / mobile application development  
