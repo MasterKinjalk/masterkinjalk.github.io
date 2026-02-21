@@ -427,6 +427,23 @@
 .image-comparison-caption--left { margin-right: auto; }
 .image-comparison-caption--right { margin-left: auto; }
 
+/* Single demo image (e.g. RootSAM) – same vertical rhythm as comparison blocks */
+.demo-single-figure {
+  margin: 2em 0;
+
+  img {
+    display: block;
+    max-width: 100%;
+    border-radius: $border-radius;
+  }
+
+  figcaption span {
+    display: block;
+    font-size: $type-size-6;
+    color: var(--global-text-color-light);
+  }
+}
+
 /* Copy BibTeX (Alpine.js) */
 .copy-bibtex-source {
   position: absolute;

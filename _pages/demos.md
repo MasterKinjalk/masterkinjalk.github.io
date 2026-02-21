@@ -23,6 +23,7 @@ SPROUTS is a desktop app that brings import, enhancement, annotation, and AI tra
 
 RootSAM adapts the Segment Anything Model (SAM2.1) to minirhizotron root imagery via two-stage fine-tuning and EDT-based prompt simulation. It achieves **mIoU 66%** (37% relative gain over the baseline) and cuts annotation cost by **91%** (~50 min → ~4.5 min per image). Below: qualitative comparison of baseline SAM2.1 vs fine-tuned RootSAM predictions (same prompts).
 
-![RootSAM qualitative evaluation]({{ site.baseurl }}/images/demo-rootsam-qualitative.png)
-
-*Qualitative evaluation: prompt points and predictions. Top: SAM2.1 baseline; Bottom: RootSAM (fine-tuned).*
+<figure class="demo-single-figure" data-aos="fade-up">
+  <img src="{{ base_path }}/images/demo-rootsam-qualitative.png" alt="RootSAM qualitative evaluation: prompt points and predictions. Top row SAM2.1 baseline, bottom row fine-tuned RootSAM." loading="lazy" />
+  <figcaption class="image-comparison-captions"><span>Qualitative evaluation: prompt points and predictions. Top: SAM2.1 baseline; Bottom: RootSAM (fine-tuned).</span></figcaption>
+</figure>

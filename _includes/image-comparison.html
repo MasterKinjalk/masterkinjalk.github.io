@@ -15,8 +15,8 @@
   {% endunless %}
 <figure class="image-comparison-wrapper" data-aos="fade-up">
   <img-comparison-slider value="50" class="image-comparison-slider">
-    <img slot="first" src="{{ left_src }}" alt="{{ include.label_left | default: 'Before' }}">
-    <img slot="second" src="{{ right_src }}" alt="{{ include.label_right | default: 'After' }}">
+    <img slot="first" src="{{ left_src }}" alt="{{ include.label_left | default: 'Before' }}" loading="lazy">
+    <img slot="second" src="{{ right_src }}" alt="{{ include.label_right | default: 'After' }}" loading="lazy">
   </img-comparison-slider>
   {% if include.label_left or include.label_right %}
   <figcaption class="image-comparison-captions">
