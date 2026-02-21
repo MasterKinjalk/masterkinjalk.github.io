@@ -1,17 +1,17 @@
 # Research highlights for the home page (optional images under /images/)
 - title: "RootQuant"
-  description: "Automated root trait quantification from minirhizotron images."
+  description: "Universal backbone for root phenotyping: fine-tune on your species with minimal trait data. R² ≈ 0.90 for length and area (NAPPN 2026)."
   url: "/publications/"
-  image: # optional, e.g. "rootquant-teaser.jpg"
+  image: "rootquant-teaser.png"
 - title: "RootSAM"
-  description: "Adapting SAM2.1 for root segmentation (CVPPA @ ICCV 2025)."
+  description: "Adapting SAM2.1 for root segmentation: 37% mIoU gain, 91% cost reduction; annotation time ~50 min → 4.5 min per image (CVPPA @ ICCV 2025)."
   url: "/publications/"
-  image:
+  image: "rootsam-teaser.png"
 - title: "SPROUTS"
-  description: "Integrated desktop app for high-throughput root phenotyping."
+  description: "Integrated desktop app: from raw minirhizotron image to biological discovery in a single session. Pix2PixRoot + RootSeg-ResNet (mIoU 0.73), human-in-the-loop."
   url: "/publications/"
-  image:
+  image: "sprouts-teaser.png"
 - title: "Publications"
-  description: "Journal articles and conference papers."
+  description: "Journal articles and conference papers (NAPPN, CVPPA/ICCV)."
   url: "/publications/"
   image:

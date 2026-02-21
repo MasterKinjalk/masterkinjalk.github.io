@@ -20,6 +20,7 @@ Work experience
   * Focus: Computer vision for plant biology, plant phenotyping, and trait quantification  
   * Building software solutions to help plant biologists work with increased data  
   * Deep learning for root and minirhizotron image analysis  
+  * Key projects: **RootQuant** — automated root length/area from minirhizotron images (Inception-ResNet-v2, universal backbone; R² ≈ 0.90). **SPROUTS** — integrated desktop app for root phenotyping (Pix2PixRoot, RootSeg-ResNet mIoU 0.73; single-session workflow). **RootSAM** — SAM2.1 adapted for root segmentation (two-stage fine-tuning; mIoU 66%, 37% gain over baseline; 91% cost reduction, ~11× faster annotation).  
 
 Skills
 ======

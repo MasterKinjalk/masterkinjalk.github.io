@@ -21,3 +21,19 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Ignore PowerPoint source files (context only, not for upload)
+OceanIT_Presentation.pptx
+SPROUTS_Poster.pptx
+Parth.pptx
+RootSAM_Final_Poster.pptx
+
+# Poster/presentation context: .md and image folders (not for upload)
+OceanIT_Presentation.md
+OceanIT_Presentation_img/
+Parth.md
+Parth_img/
+SPROUTS_Poster.md
+SPROUTS_Poster_img/
+RootSAM_Final_Poster.md
+RootSAM_Final_Poster_img/

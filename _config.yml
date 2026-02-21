@@ -12,7 +12,7 @@ site_theme               : "cv" # The available themes options are "default", "a
 title                    : "Kinjalk Parth"
 title_separator          : "-"
 name                     : &name "Kinjalk Parth"
-description              : &description "Kinjalk Parth — Computer vision for plant biology and phenotyping"
+description              : &description "Kinjalk Parth — Computer vision for plant biology: root phenotyping, minirhizotron imaging, and software for data-driven plant science"
 url                      : "https://masterkinjalk.github.io"
 baseurl                  : ""
 repository               : "MasterKinjalk/kinjalk.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Kinjalk Parth"
   pronouns         : # example: "she/her"  
-  bio              : "Using computer vision for plant biology—phenotyping, trait quantification, and software for data-driven plant science. M.S. (UIUC)."
+  bio              : "Using computer vision for plant biology—root phenotyping, minirhizotron imaging, trait quantification, and software for data-driven plant science. M.S. (UIUC)."
   location         : "Urbana-Champaign, IL"
   employer         : "Leakey Lab, Carl R. Woese Institute for Genomic Biology, University of Illinois Urbana-Champaign"
   uri              : # URL
